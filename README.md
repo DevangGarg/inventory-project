@@ -15,6 +15,7 @@ Currently, two official plugins are available:
 - #### react Material Icons
 - ### Screen
   - ## Home
+  - <img width="1414" alt="Screenshot 2024-05-14 at 2 19 08 PM" src="https://github.com/DevangGarg/inventory-project/assets/53138353/6b4c56a1-ae51-4819-b49f-9d289a746a50">
   - ## Inventory
   - ## order 
   - ## order modal
