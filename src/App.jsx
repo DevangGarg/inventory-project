@@ -1,7 +1,6 @@
 import Inter from "../public/static/fonts/Inter.ttf";
 import { ThemeProvider, CssBaseline, createTheme, Box } from "@mui/material";
 import RootComponent from "./components/RootComponent";
-import RootPage from "./components/RootPage";
 import DataTable from "./test/DataTable";
 import Hello from "./test/Hello";
 // import "../app.css";
@@ -64,7 +63,7 @@ function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<RootComponent />}>
-        <Route index element={<RootPage />} />
+        <Route index element={<Home />} />
         <Route path="/home" element={<Home />}></Route>
         <Route path="/inventory" element={<Inventory />}></Route>
         <Route path="/orders" element={<Order />}></Route>
