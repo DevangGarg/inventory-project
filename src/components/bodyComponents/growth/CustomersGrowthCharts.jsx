@@ -56,7 +56,7 @@ export default function CustomersGrowthCharts() {
       opacity: 1,
     },
     xaxis: {
-      categories: ["Mon", "Thu", "Web", "Tue", "Fri", "Sat", "Sun"],
+      categories: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
     },
     tooltip: {
       fixed: {
